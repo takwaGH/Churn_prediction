@@ -6,3 +6,17 @@ Customer churn is one of the major and most important problem for large companie
 I will create a model which predicts if a customer is likely to churn using open source Telecom data and Python.
 this project aims to predict if users will leave the telecom company or no based on historical data0 To do so we should identify which customer to churn 
 and assignevery one some score with probability and then target them with high score of churning.
+
+#Justification du choix de modèle
+In general, supervised models follow can be represented with this formula
+
+
+Depending on what is the type of target variable, the supervised task can be regression or classification (binary or multiclass). Binary classification tasks can have negative (0) or positive (1) target values. The output of these models is the probability of xi belonging to the positive class.
+
+Logistic regression is similar to linear regression because both models take into account the bias term and weighted sum of features. The difference between these models is that the output of linear regression is a real number, while logistic regression outputs a value between zero and one, applying the sigmoid function to the linear regression formula.
+
+
+
+
+
+In this way, the sigmoid function allows transforming a score into a probability.
