@@ -10,6 +10,7 @@ and assignevery one some score with probability and then target them with high s
 #Justification du choix de modèle
 In general, supervised models follow can be represented with this formula
 
+![formule](https://user-images.githubusercontent.com/123807794/235086111-44a4b6b2-dc78-4428-ac5a-6fed95ce801f.PNG)
 
 Depending on what is the type of target variable, the supervised task can be regression or classification (binary or multiclass). Binary classification tasks can have negative (0) or positive (1) target values. The output of these models is the probability of xi belonging to the positive class.
 
