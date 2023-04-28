@@ -16,6 +16,7 @@ Depending on what is the type of target variable, the supervised task can be reg
 
 Logistic regression is similar to linear regression because both models take into account the bias term and weighted sum of features. The difference between these models is that the output of linear regression is a real number, while logistic regression outputs a value between zero and one, applying the sigmoid function to the linear regression formula.
 
+![C2](https://user-images.githubusercontent.com/123807794/235086715-cc855eee-be72-4207-9a65-88c3d96db62f.PNG)
 
 
 
